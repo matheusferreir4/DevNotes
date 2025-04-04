@@ -1,21 +1,45 @@
-# DevNotes 📝✨
+# 📝 DevNotes - Code-Friendly Notepad
 
-Um bloco de notas estilo IDE para desenvolvedores, com realce de sintaxe em tempo real e temas claro/escuro.
+Um bloco de notas minimalista para desenvolvedores, com realce de sintaxe em tempo real, temas personalizáveis e salvamento automático. Ideal para anotações rápidas de código!
 
-## Funcionalidades ⚡
+![Preview](https://via.placeholder.com/800x500.png?text=DevNotes+Preview+Light+and+Dark+Themes)
 
-- 🎨 Tema claro/escuro com persistência
-- ⌨️ Atalho Ctrl+N para novas notas
-- 💾 Salvamento automático no localStorage
-- 🖥️ Realce de sintaxe para +300 linguagens
-- 🗑️ Exclusão individual de notas
-- 📱 Layout responsivo
-- 🚦 Barra de status informativa
+## ✨ Funcionalidades
 
-## Tecnologias 🛠️
+- **Editor com Realce de Sintaxe**  
+  Suporta múltiplas linguagens via Prism.js
+- **Temas Claro/Escuro**  
+  Alternância instantânea com persistência de preferência
+- **Gestão de Notas**  
+  - Criar/Deletar notas ilimitadas
+  - Layout responsivo em grid
+  - Salvamento automático no `localStorage`
+- **Atalhos de Teclado**  
+  `Ctrl + N` para nova nota
+- **UI Developer-Friendly**  
+  Estilo VS Code-inspired com controles de janela
 
-- HTML5
-- CSS3 (Variáveis e Grid)
-- JavaScript ES6
-- [Prism.js](https://prismjs.com/) (Realce de sintaxe)
-- LocalStorage
+## 🚀 Como Usar
+
+1. **Nova Nota**  
+   Clique em `➕ New Note` ou pressione `Ctrl + N`
+2. **Escreva Código**  
+   Digite na área de texto - o realce é aplicado automaticamente
+3. **Organize**  
+   Notas são dispostas automaticamente em grid
+4. **Delete**  
+   Clique em `🗑️ Delete` em qualquer nota para remover
+
+## 🎨 Personalização
+
+**Alternar Tema**  
+Clique no botão `🌓 Theme` para alternar entre temas claro/escuro
+
+**Variáveis CSS**  
+Personalize cores editando as variáveis no arquivo `styles.css`:
+```css
+:root {
+    --accent-color: #569cd6; /* Cor principal */
+    --bg-color: #1e1e1e;     /* Fundo dark mode */
+    --text-color: #d4d4d4;   /* Texto dark mode */
+}
