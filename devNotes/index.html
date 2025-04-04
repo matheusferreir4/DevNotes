@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevNotes - Code-Friendly Notepad</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/themes/prism-okaidia.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="editor-header">
+            <div class="header-left">
+                <span class="logo">{ DevNotes }</span>
+                <div class="window-controls">
+                    <div class="control red"></div>
+                    <div class="control yellow"></div>
+                    <div class="control green"></div>
+                </div>
+            </div>
+            <div class="header-right">
+                <button class="btn ide-btn" id="themeToggle">
+                    <span class="icon">🌓</span> Theme
+                </button>
+                <button class="btn ide-btn" id="newNote">
+                    <span class="icon">➕</span> New Note
+                </button>
+            </div>
+        </div>
+
+        <div class="notes-grid" id="notesContainer"></div>
+
+        <div class="status-bar">
+            <span class="status-item">📝 Notes: <span id="noteCount">0</span></span>
+            <span class="status-item">🟢 Online</span>
+            <span class="status-item">⌨️ Press Ctrl+N for new note</span>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/prism.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
