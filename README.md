@@ -2,9 +2,6 @@
 
 Um bloco de notas estilo IDE para desenvolvedores, com realce de sintaxe em tempo real e temas claro/escuro.
 
-![Preview](https://via.placeholder.com/800x500.png?text=DevNotes+Preview+Light+and+Dark+Themes) 
-*Adicione uma screenshot real do projeto aqui*
-
 ## Funcionalidades ⚡
 
 - 🎨 Tema claro/escuro com persistência
